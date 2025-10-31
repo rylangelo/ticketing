@@ -1,0 +1,101 @@
+@import url('FONTS.css');
+  
+  body {
+    background: linear-gradient(rgba(0, 49, 7, 0.5), rgba(0, 0, 0, 0.596)), url(IMAGES/ptcfront.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+.container {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #2c2c2c;
+    width: 320px;
+  }
+  h2 {
+    font-family: 'HDcolton';
+    text-align: center;
+  }
+  h5 {
+    font-family: 'CreatoLight';
+    display: inline-block;
+    margin: 0 0;
+  }
+
+  .email {
+    margin-bottom: 30px;
+    font-family: 'CreatoLight';
+  }
+
+  .password {
+    font-family: 'CreatoLight';
+  }
+
+  .forgot {
+    font-family: 'Creatobold';
+    font-size: 13px;
+    color: #005dc1;
+    display: inline-block;
+    position: relative;
+    left: 130px;
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+  }
+
+  .forgot:hover{
+    color: #026c00;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    font-family: 'CreatoBold';
+    width: 100%;
+    padding: 18px;
+    background: #0078ff;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 25px;
+    transition: 0.2s ease-in-out;
+  }
+  button:hover {
+    background: #005dc1;
+  }
+  .link {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Creatobold';
+    font-size: 15px;
+  }
+  .link p {
+    font-family: 'Creatobold';
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #000;
+  }
+  .d1 {
+    text-decoration: none;
+    color:#0078ff;
+    transition: 0.2s ease-in-out;
+  }
+  .d1:hover {
+    color: #026c00;
+  }
+
+  

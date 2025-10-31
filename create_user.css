@@ -1,0 +1,217 @@
+@import url('FONTS.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  height: 100vh;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  flex: 1;
+  background: #195800;
+  padding: 0px 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 60px;
+}
+.logo span {
+  background: #000;
+  color: #d8a600;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+
+.form-box {
+  max-width: 360px;
+  background-color: #ffffff;
+  background: linear-gradient(to bottom, #195800, #d7d7d7);
+  padding: 30px;
+  border-radius: 20px;
+  border: 1.5px solid rgb(146, 146, 146);
+}
+
+h2 {
+  text-shadow: 1px 1px 2px black;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #d8a600;
+}
+
+.hook {
+  font-family: 'Creatoitalic';
+  font-size: 4.5rem;
+}
+
+.subtext {
+  color: #0e0e0e;
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+input[type="fname"],
+input[type="Lname"] {
+  display: inline-block;  
+  align-items: center;  
+  width: 49%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: border-color 0.3s;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="studID"] {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0078ff;
+}
+
+.password-box {
+  position: relative;
+}
+.password-box .eye {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  color: #888;
+  cursor: pointer;
+}
+
+.terms {
+  display: block;
+  font-size: 0.85rem;
+  color: #0e0e0e;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+.terms input {
+  margin-right: 6px;
+}
+.terms a {
+  color: #0078ff;
+  text-decoration: none;
+}
+.terms a:hover {
+  text-decoration: underline;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  background: #0056ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+.btn-primary:hover {
+  background: #0040cc;
+}
+
+.signin-text {
+  margin-top: 25px;
+  font-size: 0.9rem;
+  color: #0e0e0e;
+}
+.signin-text a {
+  color: #0078ff;
+  text-decoration: none;
+}
+.signin-text a:hover {
+  text-decoration: underline;
+}
+
+
+.right {
+  background-image: url('IMAGES/ptcfront.png');
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat;
+  flex: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.testimonial {
+  text-align: center;
+  max-width: 420px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 30px;
+}
+.tags span {
+  background: #fff;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.person img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.info h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.info p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+  .right {
+    display: none;
+  }
+  .left {
+    padding: 30px 20px;
+  }
+}

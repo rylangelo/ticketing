@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Creatoblack'; 
+  src: url(FONTS/CreatoDisplay-Black.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CreatoItalic'; 
+  src: url(FONTS/CreatoDisplay-BlackItalic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CreatoBold'; 
+  src: url(FONTS/CreatoDisplay-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CreatoLight'; 
+  src: url(FONTS/CreatoDisplay-Light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'HDcolton'; 
+  src: url(FONTS/HDColton-Bold.otf) format('opentype');
+}
